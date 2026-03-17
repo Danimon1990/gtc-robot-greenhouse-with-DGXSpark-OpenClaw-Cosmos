@@ -15,5 +15,9 @@ src/db/greenhouse.db
 node_modules/
 dashboard/dist/
 
+# Lock files
+package-lock.json
+dashboard/package-lock.json
+
 # OS
 .DS_Store

@@ -5,6 +5,7 @@ import ZoneGrid from "./components/ZoneGrid.jsx";
 import ActuatorPanel from "./components/ActuatorPanel.jsx";
 import VideoFeed from "./components/VideoFeed.jsx";
 import AgentOutput from "./components/AgentOutput.jsx";
+import ChatPanel from "./components/ChatPanel.jsx";
 
 const styles = {
   root: { minHeight: "100vh", background: "#0f1117", color: "#e2e8f0" },
@@ -131,6 +132,10 @@ export default function App() {
 
         <div style={styles.fullWidth}>
           <AgentOutput result={agentResult} />
+        </div>
+
+        <div style={styles.fullWidth}>
+          <ChatPanel />
         </div>
       </div>
     </div>
