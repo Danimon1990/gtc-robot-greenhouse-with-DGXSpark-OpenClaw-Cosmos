@@ -1,4 +1,4 @@
-const BASE = "http://localhost:8000";
+const BASE = "http://10.1.97.15:8000";
 
 export const getSensors = () =>
   fetch(`${BASE}/api/sensors`).then((r) => r.json());
