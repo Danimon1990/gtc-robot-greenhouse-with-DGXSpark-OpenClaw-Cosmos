@@ -1,18 +1,28 @@
 {
-  "timestamp": "2026-03-17T00:00:00Z",
+  "timestamp": "2026-03-17T23:00:00Z",
   "sensors": {
-    "temperatureC": 24.0,
+    "temperatureC": 24.3,
     "humidityPct": 65.0,
-    "soilMoisturePct": 45.0
+    "soilMoisturePct": 45.0,
+    "outsideTempC": 18.7,
+    "outsideHumidityPct": 52.0,
+    "co2Ppm": 812,
+    "areas": {
+      "northWing": { "temperatureC": 23.8, "humidityPct": 63.0 },
+      "southWing": { "temperatureC": 25.1, "humidityPct": 67.0 },
+      "centerAisle": { "temperatureC": 24.5, "humidityPct": 64.5 }
+    }
   },
   "devices": {
     "fanPower": 0.0,
     "doorOpen": false
   },
   "zones": [
-    {"id": "Z1", "soilMoisturePct": 55, "lightPct": 70, "healthScore": 0.9, "status": "ok"},
-    {"id": "Z2", "soilMoisturePct": 22, "lightPct": 65, "healthScore": 0.5, "status": "dry"},
-    {"id": "Z3", "soilMoisturePct": 48, "lightPct": 35, "healthScore": 0.7, "status": "shaded"},
-    {"id": "Z4", "soilMoisturePct": 60, "lightPct": 80, "healthScore": 0.95, "status": "ok"}
+    {"id": "Bed 1", "soilMoisturePct": 55, "lightPct": 72, "healthScore": 0.92, "status": "ok"},
+    {"id": "Bed 2", "soilMoisturePct": 22, "lightPct": 65, "healthScore": 0.50, "status": "dry"},
+    {"id": "Bed 3", "soilMoisturePct": 48, "lightPct": 35, "healthScore": 0.70, "status": "shaded"},
+    {"id": "Bed 4", "soilMoisturePct": 61, "lightPct": 80, "healthScore": 0.95, "status": "ok"},
+    {"id": "Bed 5", "soilMoisturePct": 19, "lightPct": 70, "healthScore": 0.40, "status": "dry"},
+    {"id": "Bed 6", "soilMoisturePct": 53, "lightPct": 75, "healthScore": 0.88, "status": "ok"}
   ]
 }
