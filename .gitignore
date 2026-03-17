@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+.env
+
+# Database
+src/db/greenhouse.db
+
+# Node
+node_modules/
+dashboard/dist/
+
+# OS
+.DS_Store

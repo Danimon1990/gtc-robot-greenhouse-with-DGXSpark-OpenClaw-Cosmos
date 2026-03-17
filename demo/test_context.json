@@ -1,0 +1,20 @@
+{
+  "sensors": {
+    "temperatureC": 24.0,
+    "humidityPct": 65.0,
+    "soilMoisturePct": 45.0
+  },
+  "devices": {
+    "fanPower": 0.0,
+    "doorOpen": false
+  },
+  "zones": [
+    {"id": "Z1", "soilMoisturePct": 55, "lightPct": 70, "healthScore": 0.9, "status": "ok"},
+    {"id": "Z2", "soilMoisturePct": 22, "lightPct": 65, "healthScore": 0.5, "status": "dry"},
+    {"id": "Z3", "soilMoisturePct": 48, "lightPct": 35, "healthScore": 0.7, "status": "shaded"}
+  ],
+  "alerts": {
+    "dryZones": ["Z2"],
+    "shadedZones": ["Z3"]
+  }
+}
